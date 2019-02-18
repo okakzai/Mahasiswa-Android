@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Data Mahasiswa</string>
+    <string name="pressbackagain">Tekan lagi untuk keluar.</string>
+    <string name="welcome">Selamat Datang</string>
+</resources>

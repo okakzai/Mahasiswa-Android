@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_mhs_layout"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:padding="8dp"
+    android:background="@color/colorCloud"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:contentDescription="thumbnails"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/loading_shape"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Rahmat Sabilludin"/>
+
+        <TextView
+            android:id="@+id/nim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A11.2016.09515"/>
+
+        <TextView
+            android:id="@+id/id_mhs"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Mhs"/>
+
+        <TextView
+            android:id="@+id/jurusan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/badge_background"
+            android:paddingRight="3dp"
+            android:paddingLeft="3dp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="50dp"
+            android:text="S1-Teknik Informatika"/>
+
+    </LinearLayout>
+
+</LinearLayout>
